@@ -1,0 +1,76 @@
+:root{                      /*https://developer.mozilla.org/en-US/docs/Web/CSS/:root*/
+    font-size: 16px; 
+    font-family: 'Sriracha', cursive;
+}
+
+
+body{
+    background-color: #f1f1f1;
+    display: grid;
+    grid-template-rows: 17% 83%;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    
+}
+
+header{
+    margin-top: 40px;
+    margin-left: 160px;
+    margin-right: 180px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: rgb(201, 221, 245);
+}
+
+.present a{
+    display: grid;
+    grid-template-rows: 30px;
+    padding-left: 15px;
+    font-size: 10px;
+    text-decoration: none;            /* https://css-tricks.com/almanac/properties/t/text-decoration/ */
+}    
+
+.who {    
+    color:  rgba(12, 31, 92, 0.76);
+    
+}
+
+.what {
+    color:  rgba(134, 94, 42, 0.76);
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}    
+
+.menu a{
+    padding-right: 50px;
+    font-size: 23px;
+    color:  rgba(11, 73, 68, 0.76);
+    text-decoration: none;
+}    
+
+#articles .activ {
+    font-size: 30px;
+}
+.articles_page{
+    margin-left: 160px;
+    margin-right: 180px;
+    margin-bottom: 60px;
+    background-color: rgb(247, 221, 203);
+}   
+
+.myArt h3 {
+    color: rgb(150, 50, 50);
+    margin-left: 50px;
+    text-decoration: none;
+}   
+
+.myArt a {
+    text-decoration: none;
+}   

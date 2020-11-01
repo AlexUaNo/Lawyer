@@ -1,0 +1,130 @@
+:root{
+    font-size: 16px; 
+    font-family: 'Sriracha', cursive;
+}
+
+
+body{
+    background-color: #f1f1f1;
+    display: grid;
+    grid-template-rows: 17% 83%;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    
+}
+
+header{
+    margin-top: 40px;
+    margin-left: 160px;
+    margin-right: 180px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: rgb(201, 221, 245);
+}
+
+.present {
+    display: grid;
+    grid-template-rows: 30px;
+    padding-left: 15px;
+    font-size: 10px;
+    text-decoration: none;
+}    
+
+.who {    
+    color:  rgba(12, 31, 92, 0.76);
+    
+}
+
+.what {
+    color:  rgba(134, 94, 42, 0.76);
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}    
+
+.menu a{
+    padding-right: 50px;
+    font-size: 23px;
+    color:  rgba(11, 73, 68, 0.76);
+    text-decoration: none;
+}    
+
+.main_page {
+    margin-left: 160px;
+    margin-right: 180px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+  
+.maininfo {
+    background-color: rgb(247, 221, 203);
+    padding: 15% 15% 0% 10%;
+}   
+.fullName {
+    display: grid;
+    grid-template-rows: 60px;
+    font-size: 22px;
+}   
+.maininfo h1, h2{
+    color: rgb(41, 39, 39);
+    
+} 
+.maininfo h3{
+    color: rgb(49, 80, 138);   
+}  
+
+.surname {
+    padding-left: 20%;
+    box-shadow: 0 3px 0 0 rgb(41, 39, 39);
+}     
+.proff h2{
+    font-size: 25px;
+    display: grid;
+    grid-template-rows: 20px;
+    
+}     
+.other  h3 {
+    font-size: 20px;
+    display: grid;
+    grid-template-rows: 15px;
+    
+}   
+
+.translator {
+    padding-left: 20%;
+
+}  
+
+.researcher {
+    padding-left: 50%;
+
+}  
+
+.lawsuits{
+    padding-left: 10%;
+
+}  
+
+.memorandums{
+    padding-left: 20%;
+
+}  
+
+.expertise{
+    padding-left: 30%;
+
+}  
+
+.translations{
+    padding-left: 40%;
+
+}  
+
+
