@@ -6,7 +6,7 @@
 body{
     background-color: #f1f1f1;
     display: grid;
-    grid-template-rows: 17% 83%;          /* https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows */
+    grid-template-rows: 21% 79%;          /* https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows */
     min-height: 100vh;
     height: 100%;
     width: 100%;
