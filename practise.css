@@ -11,7 +11,8 @@ body{
     min-height: 100vh;
     height: 100%;
     width: 100%;
-}
+    
+} 
 
 header{
     margin-top: 40px;
@@ -22,7 +23,7 @@ header{
     background-color: rgb(201, 221, 245);
 }
 
-.present a{
+.present {
     display: grid;
     grid-template-rows: 30px;
     padding-left: 15px;
@@ -31,7 +32,7 @@ header{
 }    
 
 .who {    
-    color:  rgba(12, 31, 92, 0.76);
+    color: rgba(12, 31, 92, 0.76);
     
 }
 
@@ -47,12 +48,16 @@ header{
     padding: 10px;
 }    
 
-.menu a{                                           
+.menu a{
     padding-right: 50px;
     font-size: 23px;
     color:  rgba(11, 73, 68, 0.76);
     text-decoration: none;
-}    
+}  
+
+.menu a:hover  {
+    font-size: 30px;
+}
 
 #practise .activ {
     font-size: 30px;
@@ -90,7 +95,6 @@ header{
 
 .Autor_transl {
     padding-top: 85px;
-    padding-left: 10px;
 }
 
 .Autor_transl p {
@@ -105,5 +109,4 @@ header{
     float: left;
     margin-right: 10px;
 }
-
 
