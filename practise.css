@@ -7,11 +7,10 @@
 body{
     background-color: #f1f1f1;
     display: grid;
-    grid-template-rows: 17% 83%;
+    grid-template-rows: 21% 79%;
     min-height: 100vh;
     height: 100%;
     width: 100%;
-    
 }
 
 header{
@@ -106,4 +105,5 @@ header{
     float: left;
     margin-right: 10px;
 }
+
 
