@@ -53,6 +53,10 @@ header{
     text-decoration: none;
 }    
 
+.menu a:hover  {
+    font-size: 30px;
+}
+
 #contact .activ {
     font-size: 30px;
 }
