@@ -1,15 +1,17 @@
-:root{                                      /* https://developer.mozilla.org/en-US/docs/Web/CSS/:root  */
+:root{
     font-size: 16px; 
     font-family: 'Sriracha', cursive;
 }
 
+
 body{
     background-color: #f1f1f1;
     display: grid;
-    grid-template-rows: 21% 79%;          /* https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows */
+    grid-template-rows: 21% 79%;
     min-height: 100vh;
     height: 100%;
     width: 100%;
+    
 }
 
 header{
@@ -17,11 +19,11 @@ header{
     margin-left: 160px;
     margin-right: 180px;
     display: grid;
-    grid-template-columns: 30% 70%;           /* https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-rows */
+    grid-template-columns: 30% 70%;
     background-color: rgb(201, 221, 245);
 }
 
-.present a{
+.present {
     display: grid;
     grid-template-rows: 30px;
     padding-left: 15px;
@@ -51,7 +53,7 @@ header{
     font-size: 23px;
     color:  rgba(11, 73, 68, 0.76);
     text-decoration: none;
-}    
+}  
 
 .menu a:hover  {
     font-size: 30px;
@@ -60,6 +62,8 @@ header{
 #contact .activ {
     font-size: 30px;
 }
+
+
 .contact_page {
     margin-left: 160px;
     margin-right: 180px;
