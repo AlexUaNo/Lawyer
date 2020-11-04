@@ -7,10 +7,11 @@
 body{
     background-color: #f1f1f1;
     display: grid;
-    grid-template-rows: 21% 79%;
+    grid-template-rows: 17% 83%;
     min-height: 100vh;
     height: 100%;
-    width: 100%;   
+    width: 100%;
+    
 }
 
 header{
@@ -28,11 +29,11 @@ header{
     padding-left: 15px;
     font-size: 10px;
     text-decoration: none;
+
 }    
 
 .who {    
-    color:  rgba(12, 31, 92, 0.76);
-    
+    color:  rgba(12, 31, 92, 0.76);    
 }
 
 .what {
@@ -52,7 +53,11 @@ header{
     font-size: 23px;
     color:  rgba(11, 73, 68, 0.76);
     text-decoration: none;
-}    
+} 
+
+.menu a:hover  {
+    font-size: 30px;
+}
 
 .main_page {
     margin-left: 160px;
@@ -60,6 +65,7 @@ header{
     margin-bottom: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
   
 .maininfo {
